@@ -14,7 +14,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://ulcer-predictor-frontend.vercel.app/"
+        "https://ulcer-predictor-frontend.vercel.app"
     ],
     allow_credentials=True,
     allow_methods=["*"],
